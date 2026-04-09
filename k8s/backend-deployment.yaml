@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: module5-backend:latest
+          image: ghcr.io/hrpala/module6-devops-app/backend:d58a4020b72cb1dcc7f7f1d89554cf4a88e694cb
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
